@@ -69,3 +69,10 @@ I was using `ChatterBot` at first, but it responds too slow, so I decided to imp
 ## Give a Star! ⭐
 
 If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+
+
+<!-- build -->
+
+$env:GOOS = "windows"
+$env:GOARCH = "amd64"
+go build -o api.exe api.go
